@@ -33,6 +33,7 @@ for _ in range(inputs):
 #         print(0)
 #
 # try 2: 설계 부족
+# import itertools
 # listT = []
 # for i in range(1, 44):
 #     listT.append(int(i*(i+1)/2))
