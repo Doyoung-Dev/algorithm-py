@@ -22,7 +22,7 @@ def min_paint_cost(N, M, board):
 
 if __name__ == '__main__':
     N, M = map(int, input().split())
-    board = [input().strip() for _ in range(N)]
+    board = [input() for _ in range(N)]
     print(min_paint_cost(N, M, board))
 
 
