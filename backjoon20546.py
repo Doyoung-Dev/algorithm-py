@@ -29,17 +29,6 @@ for j in range(3, 14, 1):
         s_cash += s_stock * price[j]
         s_stock = 0
 
-
-# for i in range(12):
-#     if price[i] > price[i + 1] > price[i + 2] and i < 11:
-#         # 전량 매도
-#         s_cash = s_stock * price[i + 3]
-#         s_stock = 0
-#     if price[i] < price[i + 1] < price[i + 2] and i < 11:
-#         # 전량 매수
-#         num = s_cash % price[i + 3]
-#         s_cash -= num * price[i + 3]
-#         s_stock += num
 # 3. 비교
 j = j_cash + (j_stock * price[13])
 s = s_cash + (s_stock * price[13])
